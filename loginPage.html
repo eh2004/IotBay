@@ -1,3 +1,36 @@
-//This is Evan's new file
-//I hope this works
-//what if i make another new change
+
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
+        .login-container { width: 300px; padding: 20px; background-color: #ffffff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); margin: 100px auto; }
+        .form-control { margin-bottom: 10px; }
+        .form-control label { display: block; margin-bottom: 5px; }
+        .form-control input { width: 100%; padding: 10px; border: 1px solid #dddddd; border-radius: 5px; box-sizing: border-box; }
+        button { width: 100%; padding: 10px; background-color: #007bff; color: #ffffff; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <form action="/login" method="post">
+        <div class="form-control">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-control">
+            <label for="password">Passwords:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Log in</button>
+    </form>
+</div>
+
+</body>
+</html>
