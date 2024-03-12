@@ -4,4 +4,4 @@ body { font-family: 'Times New Roman', Times, serif, sans-serif; background-colo
 .form-control label { display: block; margin-bottom: 5px; }
 .form-control input { width: 100%; padding: 10px; border: 1px solid #dddddd; border-radius: 5px; box-sizing: border-box; }
 button { width: 100%; padding: 10px; background-color: #ff0000; color: #ffffff; border: none; border-radius: 5px; cursor: pointer; }
-button:hover { background-color: #ff00aa; }
+button:hover { background-color: #670007; }
