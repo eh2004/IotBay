@@ -16,12 +16,18 @@
             <input type="text" id="username" name="username" required>
         </div>
         <div class="form-control">
-            <label for="password">Passwords:</label>
+            <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
         </div>
-        <button type="submit">Log in</button>
+        <button type="submit" id="loginButton">Log in</button>
     </form>
 </div>
+
+<script>
+    document.getElementById('loginButton').addEventListener('click', function() {
+        window.location.href = 'home.html';
+    });
+</script>
 
 </body>
 </html>
