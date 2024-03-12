@@ -119,3 +119,12 @@ footer {
   color: #fff;
   font-size: 1rem;
 }
+
+
+.register-container{
+    width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+}

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div class="login-container">
+<div class="register-container">
     <h2>Register</h2>
     <form action="/submit_registration" method="post">
         <div class="form-control">
@@ -15,8 +15,12 @@
             <input type="email" id="email" name="email" required>
         </div>
         <div class="form-control">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <label for="firstName">Firstname:</label>
+            <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="form-control">
+            <label for="lastName">Lastname:</label>
+            <input type="text" id="lastName" name="lastName" required>
         </div>
         <div class="form-control">
             <label for="password">Password:</label>
