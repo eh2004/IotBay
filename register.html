@@ -10,7 +10,6 @@
 <div class="register-container">
     <h2>Register</h2>
     <h5>All fields are required</h5>
-    <form id="registerForm" action="/submit_registration" method="post">
 
         <div class="form-control">
             <label for="email">Email:</label>
@@ -25,12 +24,16 @@
             <input type="text" id="lastName" name="lastName" required>
         </div>
         <div class="form-control">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <div class="form-control">
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
         </div>
         <div class="form-control">
             <label for="phoneNumber">Phone number:</label>
-            <input type="text" id="phoneNumber" name="phoneNumber" required>
+            <input type="number" id="phoneNumber" name="phoneNumber" required>
         </div>
         <div class="form-control">
             <label for="streetNumber">StreetNumber:</label>

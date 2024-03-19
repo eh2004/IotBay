@@ -1,19 +1,27 @@
+/*
+Background Color: #171A21
+Secondary Background Color: #617073
+Header Color: #03B591
+Hover Color: #EAC435
+Text Color: #ffffff
+*/
+
 body { 
     font-family: 'Times New Roman', Times, serif, sans-serif; 
-    background-color: #000000; 
+    background-color: #171A21; 
     font-size: 16px;
     line-height: 1.5;
-    color: #000000;
+    color: #171A21;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .hometext{
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     margin-top: 1rem;
-    background: rgba(255, 255, 255, 0.6);
+    background: #617073;
     font-weight: bold;
     font-size: larger;
     margin-left: 6rem;
@@ -27,16 +35,17 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
+
   }
 
   .logRegButtons a {
     float: left;
-    color: #d45d0d; 
+    color: #ffffff; 
     text-align: center;
     padding: 14px 50px; 
     text-decoration: none;
     font-size: 17px; 
-    box-shadow: inset 0 0 0 0 #12cd2e;
+    box-shadow: inset 0 0 0 0 #171A21;
     margin: 0 -.25rem;
     transition: color .3s ease-in-out, box-shadow .2s ease-in-out;
     font-weight: 700;
@@ -45,7 +54,7 @@ body {
   
   .logRegButtons a:hover {
     font-weight: bold; 
-    box-shadow: inset 0 -50px 0 0 #d80eb0;
+    box-shadow: inset 0 -50px 0 0 #EAC435;
     color: #ffffff;
   }
 
@@ -68,7 +77,7 @@ body {
    padding: 14px 50px; 
    text-decoration: none;
    font-size: 17px; 
-   box-shadow: inset 0 0 0 0 #000000;
+   box-shadow: inset 0 0 0 0 #171A21;
    margin: 0 -.25rem;
    transition: color .3s ease-in-out, box-shadow .2s ease-in-out;
    font-weight: 700;
@@ -77,12 +86,12 @@ body {
  
  .page-links a:hover {
    font-weight: bold; 
-   box-shadow: inset 0 -50px 0 0 #000000;
+   box-shadow: inset 0 -50px 0 0 #EAC435;
    color: #ffffff;
  }
 
  header {
-    background-color: #ff0000;
+    background-color: #03B591;
 }
 
 header h1 {
@@ -98,7 +107,7 @@ header h1 {
     width: 300px; 
     padding: 20px; 
     background-color: #ffffff; 
-    border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; box-shadow: 0 0 10px #EAC435; 
     margin: 100px auto; 
 }
 
@@ -111,10 +120,18 @@ header h1 {
     margin-bottom: 5px; 
 }
 
+.form-control select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 .form-control input { 
     width: 100%; 
     padding: 10px; 
-    border: 1px solid #dddddd; 
+    border: 1px solid #000000; 
     border-radius: 5px; 
     box-sizing: border-box; 
 }
@@ -122,7 +139,7 @@ header h1 {
 button { 
     width: 100%; 
     padding: 10px; 
-    background-color: #ff0000; 
+    background-color: #03B591; 
     color: #ffffff; 
     border: none; 
     border-radius: 5px; 
@@ -132,7 +149,7 @@ button {
 }
 
 button:hover { 
-    background-color: #670007; 
+    background-color: #03B591; 
 }
 
 
@@ -157,7 +174,7 @@ footer {
     width: 600px;
     padding: 20px;
     background-color: #ffffff;
-    border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; box-shadow: 0 0 10px #EAC435;
     margin: 100px auto;
 }
 
