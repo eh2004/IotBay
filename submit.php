@@ -13,16 +13,17 @@ if ($conn->connect_error) {
 }
 
 // Get form data
-$input1 = $_POST['input1'];
-$input2 = $_POST['input2'];
-// Add more variables for additional inputs
+$email = $_POST['email'];
+$firstName = $_POST['firstName'];
+$lastName = $_POST['lastName'];
+$password = $_POST['password'];
+$gender = $_POST['gender'];
 
 // Insert data into database
-$sql = "INSERT INTO your_table (column1, column2) VALUES ('$input1', '$input2')";
-// Adjust column names and table name accordingly
+$sql = "INSERT INTO users (email, first_name, last_name, password, gender) VALUES ('$email', '$firstName', '$lastName', '$password', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Data inserted successfully";
+    echo "Registration successful";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
