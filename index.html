@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Vantablack ISD 2024 Website</title>
-    <link rel="stylesheet" href="main.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        text-align: center;
+        width: 10%;
+      }
+
+      .button1 {
+        float: right;
+      }
+    </style>
+
+    <button class="button button1" id="loginButton">Login</button>
+    <button class="button button1" id="registerButton">Register</button>
+  </head>
+  <body>
     <header>
-  <button id="loginButton">Login</button>
-  <button id="registerButton">Register</button>
-  <h1 class ="title-text">IoTBay</h1>
-  <section class = "page-links">
-    <a href="index.html">Home</a>
-    <a href="hardwareHome.html">Hardware Prodcuts</a>
-    <a href="softwareHome.html">Software Products</a>
-    <a href="aboutUs.html">About Us</a>
-  </section>
-        
+      <h1 class="title-text">IoTBay</h1>
+      <section class="page-links">
+        <a href="index.html">Home</a>
+        <a href="hardwareHome.html">Hardware Prodcuts</a>
+        <a href="softwareHome.html">Software Products</a>
+        <a href="aboutUs.html">About Us</a>
+      </section>
     </header>
 
     <main>
-        
-     <p class = "hometext">Lets go babyyyy</p>
-
-
-     
-  </main>
+      <p class="hometext">Lets go babyyyy</p>
+    </main>
 
     <footer>
-        <p class="copyright">Vantablack Group 2024</p>
+      <p class="copyright">Vantablack Group 2024</p>
     </footer>
 
     <script>
-      document.getElementById('loginButton').addEventListener('click', function() {
-          window.location.href = 'loginPage.html';
-      });
-      document.getElementById('registerButton').addEventListener('click', function() {
-          window.location.href = 'register.html';
-      });
+      document
+        .getElementById("loginButton")
+        .addEventListener("click", function () {
+          window.location.href = "loginPage.html";
+        });
+      document
+        .getElementById("registerButton")
+        .addEventListener("click", function () {
+          window.location.href = "register.html";
+        });
     </script>
-
-</body>
+  </body>
 </html>
