@@ -1,4 +1,4 @@
-document.getElementById("myForm").addEventListener("submit", function(event) {
+document.getElementById("registerForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent default form submission
     var formData = new FormData(this);
     
