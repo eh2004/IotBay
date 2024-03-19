@@ -111,6 +111,14 @@ header h1 {
     margin-bottom: 5px; 
 }
 
+.form-control select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 .form-control input { 
     width: 100%; 
     padding: 10px; 
