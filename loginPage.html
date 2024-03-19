@@ -23,11 +23,16 @@
     </form>
 </div>
 
+
 <script>
-    document.getElementById('loginButton').addEventListener('click', function() {
+    document.querySelector('.login-container form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
         window.location.href = 'welcome.html';
     });
 </script>
+
+
 
 </body>
 </html>
