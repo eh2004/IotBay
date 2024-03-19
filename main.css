@@ -21,6 +21,34 @@ body {
     border-radius: 12px;
   }
 
+  .logRegButtons {
+    display: flex;
+    justify-content: right;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .logRegButtons a {
+    float: left;
+    color: #d45d0d; 
+    text-align: center;
+    padding: 14px 50px; 
+    text-decoration: none;
+    font-size: 17px; 
+    box-shadow: inset 0 0 0 0 #12cd2e;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .2s ease-in-out;
+    font-weight: 700;
+    display: flex;
+  }
+  
+  .logRegButtons a:hover {
+    font-weight: bold; 
+    box-shadow: inset 0 -50px 0 0 #d80eb0;
+    color: #ffffff;
+  }
+
   .title-text {
     display: flex;
    justify-content: center;
@@ -99,11 +127,15 @@ button {
     border: none; 
     border-radius: 5px; 
     cursor: pointer; 
+    font-size: 16px;
+
 }
 
 button:hover { 
     background-color: #670007; 
 }
+
+
 
 footer {
     text-align: center;
